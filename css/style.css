@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/back.png);
+    background-repeat: no-repeat;
+    position: absolute;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.shapka{
+    height: 100px;
+    width: 1627px;
+    margin-top: 45px;
+    margin-left: 140px;
+}
+
+.logotype{
+    height: 100px;
+    width: 319px;
+    float: left;
+}
+
+.logo{
+    height: 100px;
+    width: 80px;
+    float: left;
+    border-radius: 17px;
+    background-image: url(../img/logo2.png);
+    box-shadow: 8px 9px 4px rgba(105, 39, 30, 0.25);
+}
+
+.logo-text{
+    height: 43.78px;
+    width: 199px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 28px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    letter-spacing: -0.01em;
+}
+
+.menu{
+    height: 27.85px;
+    width: 799px;
+    float: left;
+    margin-left: 161px;
+    margin-top: 37px;
+}
+
+.menu a{
+    color: black;
+    text-decoration: none;
+}
+
+.cart{
+    height: 61.37px;
+    width: 187px;
+    float: left;
+    margin-left: 161px;
+    margin-top: 19px;
+}
+
+.menu1{
+    width: 100px;
+    height: 25.87px;
+    float: left;
+    margin-bottom: 1.98px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.menu2{
+    width: 87px;
+    height: 25.87px;
+    float: left;
+    margin-left: 123px;
+    margin-bottom: 1.98px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.menu p:hover{
+    text-decoration: underline;
+    font-weight: 800;
+}
+
+.menu p:active{
+    color: #F4385A;
+}
+
+.menu3{
+    width: 124px;
+    height: 25.87px;
+    float: left;
+    margin-left: 123px;
+    margin-bottom: 1.98px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.menu4{
+    width: 119px;
+    height: 25.87px;
+    float: left;
+    margin-left: 123px;
+    margin-bottom: 1.98px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+}
+
+.cart-img{
+    width: 61.68px;
+    height: 61.37px;
+    float: left;
+    background-image: url(../img/cart.png);
+}
+
+.cart-img:hover{
+    border-radius: 50%;
+    box-shadow: 0px 0px 25px rgb(255, 255, 255);
+}
+
+.value{
+    width: 107px;
+    height: 23px;
+    float: left;
+    margin-top: 20px;
+    margin-left: 18.32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.content{
+    height: 332px;
+    width: 621px;
+    margin-top: 291px;
+    margin-left: 140px;
+    float: left;
+}
+
+.content-text1{
+    width: 535px;
+    height: 116px;
+    float: left;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 59px;
+}
+
+.content-text2{
+    width: 589px;
+    height: 98px;
+    float: left;
+    margin-top: 20px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.08em;
+}
+
+.route-img{
+    position: absolute;
+    width: 72px;
+    height: 72px;
+    margin-top: 34px;
+    margin-left: 549px;
+    background-image: url(../img/route.png);
+}
+
+.button{
+    position: absolute;
+    height: 78px;
+    width: 319px;
+    float: left;
+    margin-top: 254px;
+    margin-left: 0px;
+    border-radius: 58px;
+    background: linear-gradient(146.03deg, #F4385A -30.99%, #B31A51 105.12%);
+}
+
+.button-text{
+    height: 34px;
+    width: 257px;
+    margin-left: 31px;
+    margin-top: 22px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+}
+
+.button:hover{
+    box-shadow: 0px 8px 18px rgba(245, 56, 90, 0.6);
+}
+
+.button-text:active{
+    color: #FCB44D;
+}
+
+.photo{
+    width: 729.95px;
+    height: 917.58px;
+    margin-top: 17.42px;
+    margin-left: 289px;
+    float: left;
+}
+
+.cat{
+    position: absolute;
+    width: 719.63px;
+    height: 900.01px;
+    float: right;
+    margin-right: 1px;
+    background-image: url(../img/cat.png);
+}
+
+.round{
+    float: left;
+    margin-top: 293.58px;
+    border-radius: 50%;
+    width: 560px;
+    height: 560px;
+    background-color: rgba(255, 232, 173, 0.54);;
+    filter: blur(250px);
+}
